@@ -136,8 +136,7 @@ a:hover {
 	max-width: 960px;
 	margin-top: 0px;
 	margin-left: auto;
-	margin-right: auto;
-	overflow: hidden;
+	margin-right: auto;;
 }
 .left {
 	position: relative;
@@ -146,7 +145,6 @@ a:hover {
 	max-width: 677px;
 	margin-left: auto;
 	margin-right: auto;	
-	height: auto;
 	font-family: FuturaBook;
 	font-size: 14px;
 	margin-bottom: 5px;
@@ -157,7 +155,6 @@ a:hover {
 .right {
 	position: relative;
 	float: left;
-	height: 100%;
 	width: 41%;
 	max-width: 400px;
 	margin-bottom: 5px;
