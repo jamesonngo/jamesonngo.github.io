@@ -11,7 +11,7 @@ div {
 	position: relative;
 	margin-top: 5%;
 	margin-left: 1em;
-	font-size: 3em;
+	font-size: 4em;
 	font-family: FuturaBook;
 	font-variant: small-caps;
 	color: #ffffff;
@@ -33,14 +33,14 @@ h1 {
 	font-family: FuturaBook;
 	font-weight: 500;
 	font-variant: small-caps;
-	font-size: 26px;
+	font-size: 2em;
 	color: #00a875;
 }
 h2{
 	margin-left: 10px;
 	margin-right: 5px;
 	font-family: FuturaBook;
-	font-size: 20px;
+	font-size: 1.3em;
 	font-variant: small-caps;
 	color: #000000;
 }
@@ -55,7 +55,7 @@ br2 {
 	background-color: #00a875;
 	margin-bottom: 5px;
 	min-width: 345px;
-	min-height: 170px;
+	min-height: 270px;
 	max-width: 960px;
 	max-height: 200px;
 	margin-top: 50px;
@@ -92,7 +92,7 @@ IMG.joblogo{
 	margin-left: 10px;
 	margin-right: 5px;
 	font-family: FuturaBook;
-	font-size:14px;
+	font-size:1.5em;
 	color: #000000;
 }
 .bullet{
@@ -100,9 +100,8 @@ IMG.joblogo{
 	margin-right: 5px;
 	margin-top: -10px;
 	font-family: FuturaBook;
-	font-size:14px;
 	color: #000000;
-	line-height: 20px;
+	line-height: 1.4em;
 }
 .bullet li{
     list-style-type: none;
@@ -145,8 +144,6 @@ a:hover {
 	max-width: 677px;
 	margin-left: auto;
 	margin-right: auto;	
-	font-family: FuturaBook;
-	font-size: 14px;
 	margin-bottom: 5px;
 	border-right-style: solid;
 	border-right-color: #00a875;
@@ -159,7 +156,6 @@ a:hover {
 	max-width: 400px;
 	margin-bottom: 5px;
 	font-family: FuturaBook;
-	font-size: 14px;
 }
 
 .footer {
