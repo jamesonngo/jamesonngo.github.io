@@ -39,7 +39,7 @@ h1 {
 h2{
 	margin-left: 10px;
 	margin-right: 5px;
-	font-family: Futura, serif;
+	font-family: Futura, sans-serif;
 	font-size: 20px;
 	font-variant: small-caps;
 	color: #000000;
@@ -91,7 +91,7 @@ IMG.joblogo{
 .p {
 	margin-left: 10px;
 	margin-right: 5px;
-	font-family: Futura, serif;
+	font-family: Futura, sans-serif;
 	font-size:14px;
 	color: #000000;
 }
@@ -99,7 +99,7 @@ IMG.joblogo{
 	margin-left: 50px;
 	margin-right: 5px;
 	margin-top: -10px;
-	font-family: Futura, serif;
+	font-family: Futura, sans-serif;
 	font-size:14px;
 	color: #000000;
 	line-height: 20px;
