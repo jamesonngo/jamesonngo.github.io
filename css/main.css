@@ -9,7 +9,7 @@ div {
 
 #header-title {
 	position: relative;
-	margin-top: 5%;
+	margin-top: 7%;
 	margin-left: 1em;
 	font-size: 4em;
 	font-family: FuturaBook;
@@ -19,10 +19,10 @@ div {
 
 #email{
 	position: relative;
-	margin-left: 3em;
-	margin-top: -3em;
+	margin-left: 2em;
+	margin-top: -2.5em;
 	padding-top: 5px;
-	font-size: 20px;
+	font-size: 2em;
 	font-family: FuturaBook;
 	color: #ffffff;
 }
@@ -93,6 +93,7 @@ IMG.joblogo{
 	margin-right: 5px;
 	font-family: FuturaBook;
 	font-size:1.5em;
+	line-height: 1.4em
 	color: #000000;
 }
 .bullet{
@@ -101,7 +102,6 @@ IMG.joblogo{
 	margin-top: -10px;
 	font-family: FuturaBook;
 	color: #000000;
-	line-height: 1.4em;
 }
 .bullet li{
     list-style-type: none;
