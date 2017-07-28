@@ -45,14 +45,16 @@ h2 {
 	font-family: FuturaBook;
 	font-size: 1.5em;
 	font-variant: small-caps;
+	line-height: 1.2em;
 	color: #ffffff;
 }
 
 d {
 	float: right;
 	font-family: FuturaBook;
-	font-size:1em;
+	font-size:1.1em;
 	line-height: 1em;
+	padding-right: 5px;
 	color: #00a875;
 	font-variant: small-caps;
 }
@@ -127,8 +129,14 @@ li {
 	list-style-type: square;
 }
 
+a {
+	font-family: FuturaBook;
+	color: #ffffff;
+}
+
 a:hover {
-	font-weight: bold;
+	font-family: FuturaBook;
+	color: #00A875;
 }
 
 .content {
