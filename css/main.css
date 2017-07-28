@@ -1,6 +1,6 @@
 body {
 	border-radius: 2px;
-	background-color: #eeeeee;
+	background-color: #28373B;
 }
 
 @font-face {
@@ -44,12 +44,9 @@ h2{
 	font-family: FuturaBook;
 	font-size: 1.5em;
 	font-variant: small-caps;
-	color: #000000;
+	color: #ffffff;
 }
-br2 {
-	display: block;
-	margin: 10px 0;
-     }
+
 .header {
 	z-index: 1;
 	width: 100%;
@@ -65,8 +62,7 @@ br2 {
 	overflow: hidden;
 }
 .about {
-	width: 100%;
-	background-color: #ffffff;
+	width: 75%;
 	min-width: 345px;
 	max-width: 960px;
 	margin-left: auto;
@@ -93,7 +89,7 @@ IMG.joblogo{
 	font-family: FuturaBook;
 	font-size:1.5em;
 	line-height: 1.4em;
-	color: #000000;
+	color: #ffffff;
 }
 .bullet{
 	margin-left: 50px;
@@ -129,7 +125,7 @@ a:hover {
 	z-index: 1;
 	width: 100%;
 	position: static;
-	background-color: #ffffff;
+	background-color: #28373b;
 	padding-bottom: 10px;
 	min-width: 345px;
 	max-width: 960px;
@@ -145,18 +141,18 @@ a:hover {
 	margin-left: auto;
 	margin-right: auto;	
 	margin-bottom: 10px;
-	background-color: #ffffff;
+	padding-left: 3%;
+	border-right-style: solid;
+	border-right-width: 2px;
+	border-right-color: #00a875;
 }
 
 .right {
 	position: static;
 	float: left;
-	width: 43%;
+	width: 40%;
 	max-width: 400px;
 	font-family: FuturaBook;
-	background-color: #ffffff;
-	border-left-style: solid;
-	border-left-color: #00a875;
 }
 
 .footer {
