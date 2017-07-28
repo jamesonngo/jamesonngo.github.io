@@ -123,10 +123,11 @@ li {
 a {
 	font-family: FuturaBook;
 	color: #ffffff;
+	text-decoration: none;
 }
 a:hover {
 	font-family: FuturaBook;
-	color: #00A875;
+	color: #000000;
 }
 .content {
 	z-index: 1;
