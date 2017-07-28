@@ -6,6 +6,14 @@ body {
 	font-family: FuturaBook;
 	src: url("/../font/Futura-Book.otf") format("opentype");
 }
+body {
+	border-radius: 2px;
+	background-color: #28373B;
+}
+@font-face {
+	font-family: FuturaBook;
+	src: url("/../font/Futura-Book.otf") format("opentype");
+}
 #header-title {
 	position: relative;
 	margin-top: 7%;
@@ -38,7 +46,7 @@ h2 {
 	margin-left: 10px;
 	margin-right: 5px;
 	font-family: FuturaBook;
-	font-size: 2em;
+	font-size: 1.5em;
 	font-variant: small-caps;
 	line-height: 1.2em;
 	color: #ffffff;
@@ -55,12 +63,12 @@ d {
 .header {
 	z-index: 1;
 	width: 100%;
-	height: 40vw;
+	height: 30vw;
 	background-color: #00a875;
 	min-width: 345px;
-	min-height: 270px;
+	min-height: 200px;
 	max-width: 960px;
-	max-height: 200px;
+	max-height: 270px;
 	margin-top: 50px;
 	margin-left: auto;
 	margin-right: auto;
@@ -78,7 +86,7 @@ IMG.logo {
 	z-index: 2;
 	width: 200px;
 	height: 125px;
-	margin-top: -140px;
+	margin-top: -130px;
 	margin-right: 10px;
 	float: right;
 }
@@ -181,6 +189,183 @@ a:hover {
 }
 .header #email {
 	font-size: 1.2em;
+}
+}
+.footer {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+	height: 30px;
+	min-width: 345px;
+	max-width: 960px;
+	background-color: #00a875;
+	clear: both;
+	font-family: FuturaBook;
+	font-size: 14px;
+	text-align: center;
+	color: #000000;
+}
+#footer p {
+	position: relative;
+	padding-top: 15px;
+}
+h1 {
+	margin-left: 10px;
+	margin-bottom: 15px;
+	font-family: FuturaBook;
+	font-weight: 500;
+	font-variant: small-caps;
+	font-size: 2em;
+	color: #00a875;
+}
+h2 {
+	margin-left: 10px;
+	margin-right: 5px;
+	font-family: FuturaBook;
+	font-size: 2em;
+	font-variant: small-caps;
+	line-height: 1.2em;
+	color: #ffffff;
+}
+d {
+	float: right;
+	font-family: FuturaBook;
+	font-size: 1.1em;
+	line-height: 1em;
+	padding-right: 5px;
+	color: #00a875;
+	font-variant: small-caps;
+}
+.header {
+	z-index: 1;
+	width: 100%;
+	height: 30vw;
+	background-color: #00a875;
+	min-width: 345px;
+	min-height: 170px;
+	max-width: 960px;
+	max-height: 270px;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+}
+.about {
+	width: 75%;
+	min-width: 345px;
+	max-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+}
+IMG.logo {
+	float: right;
+	width: 200px;
+	height: 125px;
+	margin-top: ;
+	margin-right: 10px;
+	
+}
+IMG.joblogo {
+	z-index: 2;
+	width: 50px;
+	height: 50px;
+	float: left;
+}
+.p {
+	margin-left: 10px;
+	margin-right: 5px;
+	font-family: FuturaBook;
+	font-size: 1.5em;
+	line-height: 1.4em;
+	color: #ffffff;
+}
+.bullet {
+	margin-left: 50px;
+	margin-right: 5px;
+	margin-top: -10px;
+	font-family: FuturaBook;
+	color: #000000;
+}
+.bullet li {
+	list-style-type: none;
+	position: relative;
+	padding-left: 5px;
+}
+.bullet li:before {
+	content: '•';
+	display: block;
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	top: -2px;
+	left: -15px;
+}
+li {
+	list-style-type: square;
+}
+a {
+	font-family: FuturaBook;
+	color: #ffffff;
+	text-decoration: none;
+}
+a:hover {
+	font-family: FuturaBook;
+	color: #000000;
+}
+.content {
+	z-index: 1;
+	width: 100%;
+	position: relative;
+	background-color: #28373b;
+	padding-bottom: 10px;
+	min-width: 345px;
+	max-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+}
+.left {
+	position: relative;
+	float: left;
+	width: 56.5%;
+	max-width: 677px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	padding-left: 3%;
+	border-right-style: solid;
+	border-right-width: 2px;
+	border-right-color: #00a875;
+}
+.right {
+	position: relative;
+	float: left;
+	width: 40%;
+	max-width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: FuturaBook;
+}
+
+@media (max-width: 700px) {
+.content .right {
+	width: 100% !important;
+	text-align: center;
+	
+}
+.content .left {
+	width: 90% !important;
+}
+.left {
+	border-right: 0;
+}
+.header #header-title {
+	font-size: 3em;
+}
+.header #email {
+	font-size: 1.4em;
 }
 }
 .footer {
