@@ -2,12 +2,10 @@ body {
 	border-radius: 2px;
 	background-color: #28373B;
 }
-
 @font-face {
-    font-family: FuturaBook;
-    src: url("/../font/Futura-Book.otf") format("opentype");
+	font-family: FuturaBook;
+	src: url("/../font/Futura-Book.otf") format("opentype");
 }
-
 #header-title {
 	position: relative;
 	margin-top: 7%;
@@ -17,8 +15,7 @@ body {
 	font-variant: small-caps;
 	color: #ffffff;
 }
-
-#email{
+#email {
 	position: relative;
 	margin-left: 2em;
 	margin-top: -2.5em;
@@ -28,7 +25,6 @@ body {
 	line-height: 1.4em;
 	color: #ffffff;
 }
-
 h1 {
 	margin-left: 10px;
 	margin-bottom: 15px;
@@ -38,7 +34,6 @@ h1 {
 	font-size: 2em;
 	color: #00a875;
 }
-
 h2 {
 	margin-left: 10px;
 	margin-right: 5px;
@@ -48,17 +43,15 @@ h2 {
 	line-height: 1.2em;
 	color: #ffffff;
 }
-
 d {
 	float: right;
 	font-family: FuturaBook;
-	font-size:1.1em;
+	font-size: 1.1em;
 	line-height: 1em;
 	padding-right: 5px;
 	color: #00a875;
 	font-variant: small-caps;
 }
-
 .header {
 	z-index: 1;
 	width: 100%;
@@ -73,16 +66,6 @@ d {
 	margin-right: auto;
 	overflow: hidden;
 }
-
-@media (max-width: 650px) {
-        .header #header-title{
-          font-size: 3em;
-      }
-	.header #email{
-		font-size: 1.2em;
-	}
-    }
-
 .about {
 	width: 75%;
 	min-width: 345px;
@@ -91,64 +74,60 @@ d {
 	margin-right: auto;
 	overflow: hidden;
 }
-IMG.logo{
+IMG.logo {
 	z-index: 2;
 	width: 200px;
 	height: 125px;
 	margin-top: -140px;
 	margin-right: 10px;
-	float:right;
+	float: right;
 }
-IMG.joblogo{
+IMG.joblogo {
 	z-index: 2;
 	width: 50px;
 	height: 50px;
-	float:left;
+	float: left;
 }
 .p {
 	margin-left: 10px;
 	margin-right: 5px;
 	font-family: FuturaBook;
-	font-size:1.5em;
+	font-size: 1.5em;
 	line-height: 1.4em;
 	color: #ffffff;
 }
-.bullet{
+.bullet {
 	margin-left: 50px;
 	margin-right: 5px;
 	margin-top: -10px;
 	font-family: FuturaBook;
 	color: #000000;
 }
-.bullet li{
-    list-style-type: none;
-    position: relative;
-    padding-left: 5px;
+.bullet li {
+	list-style-type: none;
+	position: relative;
+	padding-left: 5px;
 }
-.bullet li:before{
+.bullet li:before {
 	content: '•';
-    display: block;
-    width: 10px;
-    height: 10px;
-    position: absolute;
-    top: -2px;
-    left: -15px;
+	display: block;
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	top: -2px;
+	left: -15px;
 }
-
 li {
 	list-style-type: square;
 }
-
 a {
 	font-family: FuturaBook;
 	color: #ffffff;
 }
-
 a:hover {
 	font-family: FuturaBook;
 	color: #00A875;
 }
-
 .content {
 	z-index: 1;
 	width: 100%;
@@ -161,46 +140,48 @@ a:hover {
 	margin-right: auto;
 	overflow: hidden;
 }
-
-@media (max-width: 650px) {
-        .content .right{
-           width: 100% !important;
-      }
-		.content .left{
-           width: 90% !important;
-      }
-    }
-
 .left {
-    position: relative;
-    float: left;
-    width: 56.5%;
-    max-width: 677px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
-    padding-left: 3%;
-    border-right-style: solid;
-    border-right-width: 2px;
-    border-right-color: #00a875;
+	position: relative;
+	float: left;
+	width: 56.5%;
+	max-width: 677px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	padding-left: 3%;
+	border-right-style: solid;
+	border-right-width: 2px;
+	border-right-color: #00a875;
 }
-
-@media screen and (max-width: 650px) {
-.left{
-   border-right: 0;
-}
-}
-
 .right {
 	position: relative;
 	float: left;
 	width: 40%;
 	max-width: 400px;
 	margin-left: auto;
-    margin-right: auto;
+	margin-right: auto;
 	font-family: FuturaBook;
 }
 
+@media (max-width: 650px) {
+.content .right {
+	width: 100% !important;
+	text-align: center;
+	
+}
+.content .left {
+	width: 90% !important;
+}
+.left {
+	border-right: 0;
+}
+.header #header-title {
+	font-size: 3em;
+}
+.header #email {
+	font-size: 1.2em;
+}
+}
 .footer {
 	position: relative;
 	margin-left: auto;
@@ -216,7 +197,6 @@ a:hover {
 	text-align: center;
 	color: #000000;
 }
-
 #footer p {
 	position: relative;
 	padding-top: 15px;
