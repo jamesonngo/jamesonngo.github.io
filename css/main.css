@@ -73,6 +73,16 @@ d {
 	margin-right: auto;
 	overflow: hidden;
 }
+
+@media (max-width: 650px) {
+        .header #header-title{
+          font-size: 3em;
+      }
+	.header #email{
+		font-size: 1.2em;
+	}
+    }
+
 .about {
 	width: 75%;
 	min-width: 345px;
@@ -142,7 +152,7 @@ a:hover {
 .content {
 	z-index: 1;
 	width: 100%;
-	position: static;
+	position: relative;
 	background-color: #28373b;
 	padding-bottom: 10px;
 	min-width: 345px;
@@ -151,25 +161,43 @@ a:hover {
 	margin-right: auto;
 	overflow: hidden;
 }
+
+@media (max-width: 650px) {
+        .content .right{
+           width: 100% !important;
+      }
+		.content .left{
+           width: 90% !important;
+      }
+    }
+
 .left {
-	position: static;
-	float: left;
-	width: 56.5%;
-	max-width: 677px;
-	margin-left: auto;
-	margin-right: auto;	
-	margin-bottom: 10px;
-	padding-left: 3%;
-	border-right-style: solid;
-	border-right-width: 2px;
-	border-right-color: #00a875;
+    position: relative;
+    float: left;
+    width: 56.5%;
+    max-width: 677px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    padding-left: 3%;
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-right-color: #00a875;
+}
+
+@media screen and (max-width: 650px) {
+.left{
+   border-right: 0;
+}
 }
 
 .right {
-	position: static;
+	position: relative;
 	float: left;
 	width: 40%;
 	max-width: 400px;
+	margin-left: auto;
+    margin-right: auto;
 	font-family: FuturaBook;
 }
 
