@@ -38,13 +38,23 @@ h1 {
 	font-size: 2em;
 	color: #00a875;
 }
-h2{
+
+h2 {
 	margin-left: 10px;
 	margin-right: 5px;
 	font-family: FuturaBook;
 	font-size: 1.5em;
 	font-variant: small-caps;
 	color: #ffffff;
+}
+
+d {
+	float: right;
+	font-family: FuturaBook;
+	font-size:1em;
+	line-height: 1em;
+	color: #00a875;
+	font-variant: small-caps;
 }
 
 .header {
