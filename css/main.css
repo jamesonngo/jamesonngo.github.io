@@ -194,7 +194,7 @@ a:hover {
 	font-size: 2em;
 }
 	.about {
-		width: 80%;
+		width: 100%;
 	}
 .header #email {
 	font-size: 1em;
@@ -203,7 +203,7 @@ a:hover {
 		font-size: .8em;
 	}
 	.activities{
-		width: 80%;
+		width: 100%;
 		font-size: .8em;
 	}
 }
