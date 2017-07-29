@@ -177,15 +177,24 @@ a:hover {
 	border-right: 0;
 }
 .content .right {
-	min-width: 75%;
-	float: inherit;
+	min-width: 100%;
 }
+	.right .p {
+		text-align: center;
+		align-content: center;
+	}
 .header #header-title {
 	font-size: 3em;
 }
 .header #email {
 	font-size: 1.4em;
 }
+	.about {
+		width: 100%;
+	}
+	.activities{
+		width: 100%
+	}
 }
 
 @media (max-width: 400px) {
