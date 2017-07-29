@@ -72,6 +72,7 @@ d {
 	margin-right: auto;
 }
 .about {
+	float: inherit;
 	width: 80%;
 	min-width: 330px;
 	max-width: 960px;
@@ -79,15 +80,24 @@ d {
 	margin-right: auto;
 	word-wrap: break-word;
 }
+
+.activities {
+	float: inherit;
+	width: 80%;
+	min-width: 330px;
+	max-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	word-wrap: break-word;
+}
+
 IMG.joblogo {
 	z-index: 2;
 	width: 50px;
 	height: 50px;
 	float: left;
 }
-table.t{
-	word-wrap: break-word;
-}
+
 .p {
 	margin-left: 10px;
 	margin-right: 5px;
@@ -187,7 +197,7 @@ a:hover {
 	font-size: 2em;
 }
 	.about {
-		width: 75%;
+		width: 80%;
 	}
 .header #email {
 	font-size: 1em;
