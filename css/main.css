@@ -187,7 +187,8 @@ a:hover {
 	font-size: 2em;
 }
 	.about {
-		width: 90%;
+		width: 80%;
+		float: inherit;
 	}
 .header #email {
 	font-size: 1em;
