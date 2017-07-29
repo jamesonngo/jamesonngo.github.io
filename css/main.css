@@ -188,6 +188,9 @@ a:hover {
 .header #email {
 	font-size: 1em;
 }
+	.content{
+		font-size: .8em;
+	}
 }
 .footer {
 	position: relative;
