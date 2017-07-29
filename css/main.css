@@ -72,7 +72,7 @@ d {
 	margin-right: auto;
 }
 .about {
-	width: 75%;
+	width: 80%;
 	min-width: 330px;
 	max-width: 960px;
 	margin-left: auto;
@@ -187,7 +187,7 @@ a:hover {
 	font-size: 2em;
 }
 	.about {
-		width: 100%;
+		width: 90%;
 	}
 .header #email {
 	font-size: 1em;
