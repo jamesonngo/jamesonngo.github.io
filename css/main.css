@@ -82,7 +82,6 @@ d {
 }
 
 .activities {
-	float: inherit;
 	width: 80%;
 	min-width: 330px;
 	max-width: 960px;
@@ -152,7 +151,6 @@ a:hover {
 	overflow: hidden;
 }
 .left {
-	position: relative;
 	float: left;
 	width: 56.5%;
 	max-width: 677px;
@@ -165,7 +163,6 @@ a:hover {
 	border-right-color: #00a875;
 }
 .right {
-	position: relative;
 	float: left;
 	width: 40%;
 	max-width: 400px;
@@ -203,6 +200,10 @@ a:hover {
 	font-size: 1em;
 }
 	.content{
+		font-size: .8em;
+	}
+	.activities{
+		width: 80%;
 		font-size: .8em;
 	}
 }
