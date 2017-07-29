@@ -63,7 +63,7 @@ d {
 	background-repeat: no-repeat;
 	background-size: 35%, contain;
 	background-position: right;
-	min-width: 345px;
+	min-width: 330px;
 	min-height: 170px;
 	max-width: 960px;
 	max-height: 270px;
@@ -73,7 +73,7 @@ d {
 }
 .about {
 	width: 75%;
-	min-width: 345px;
+	min-width: 330px;
 	max-width: 960px;
 	margin-left: auto;
 	margin-right: auto;
@@ -135,7 +135,7 @@ a:hover {
 	position: relative;
 	background-color: #28373b;
 	padding-bottom: 10px;
-	min-width: 345px;
+	min-width: 330px;
 	max-width: 960px;
 	margin-left: auto;
 	margin-right: auto;
@@ -186,8 +186,8 @@ a:hover {
 	padding-top:12%;
 	font-size: 2em;
 }
-	.about .t{
-		width: 75%;
+	.about {
+		width: 100%;
 	}
 .header #email {
 	font-size: 1em;
@@ -202,7 +202,7 @@ a:hover {
 	margin-right: auto;
 	padding-top: 20px;
 	height: 30px;
-	min-width: 345px;
+	min-width: 330px;
 	max-width: 960px;
 	background-color: #00a875;
 	clear: both;
