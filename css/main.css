@@ -8,7 +8,6 @@ body {
 }
 #header-title {
 	position: relative;
-	margin-top: 15%;
 	padding-top: .5em;
 	margin-left: 1em;
 	font-size: 4em;
@@ -67,9 +66,11 @@ d {
 	min-height: 170px;
 	max-width: 960px;
 	max-height: 270px;
-	margin-top: 50px;
 	margin-left: auto;
 	margin-right: auto;
+}
+.bar {
+	min-width: 330px;
 }
 .about {
 	float: inherit;
@@ -167,6 +168,28 @@ a:hover {
 	font-family: FuturaBook;
 }
 
+.menu {
+	margin-top: 10px;
+	display: inline-block;
+	line-height: 250%;
+	width: 19%;
+	height: 50px;
+	font-size: 20px;
+	color: white;
+	background-color: #00A875;
+	border: 1px solid #00a875;
+	font-family: FuturaBook;
+	text-align: center;
+	font-variant: small-caps;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.menu:hover {
+	border: 1px solid #000000;
+	color: #000000;
+}
+
+
 @media (max-width: 700px) {
 .content .left {
 	width: 90% !important;
@@ -194,6 +217,11 @@ a:hover {
 h1 {
 	text-align: center;
 }
+.menu{
+		width: 18%;
+	font-size: 14px;
+	height: 40px;
+	}
 }
 
 @media (max-width: 400px) {
@@ -201,7 +229,6 @@ h1 {
 	text-align: center;
 }
 .header #header-title {
-	padding-top: 12%;
 	font-size: 2em;
 }
 .about {
@@ -217,6 +244,10 @@ h1 {
 	width: 100%;
 	font-size: .8em;
 }
+.menu {
+	font-size: 12px;
+	height: 30px;
+	}
 }
 .button {
 	display: inline-block;
