@@ -71,6 +71,8 @@ d {
 }
 .bar {
 	min-width: 330px;
+	max-width: 960px;
+	margin:auto;
 }
 .about {
 	float: inherit;
