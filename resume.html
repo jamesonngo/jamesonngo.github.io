@@ -4,8 +4,8 @@
 <link rel="stylesheet" type="text/css" href="css/main.css">
 <head>
 <title>Jameson Ngo</title>
-<script src="jquery-3.2.1.js"></script>
-<script src="top.js">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="animatescroll.js">
 </script>
 </head>
 
@@ -24,12 +24,12 @@
   </a></div>
   
 <div class="bar" align="center">
-	<a href="#summary"><div class="menu2">summary</div></a>
-	<a href="#exp"><div class="menu2">experience</div></a>
-	<a href="#tech"><div class="menu2">technical</div></a>
-	<a href="#edu"><div class="menu2">education</div></a>
-	<a href="#activ"><div class="menu2">activities</div></a>
-	<a href="#cont"><div class="menu2">contact</div></a>
+	<a onclick="$('#summary').animatescroll();"><div class="menu2">summary</div></a>
+	<a onclick="$('#exp').animatescroll();"><div class="menu2">experience</div></a>
+	<a onclick="$('#tech').animatescroll();"><div class="menu2">technical</div></a>
+	<a onclick="$('#edu').animatescroll();"><div class="menu2">education</div></a>
+	<a onclick="$('#activ').animatescroll();"><div class="menu2">activities</div></a>
+	<a onclick="$('#cont').animatescroll();"><div class="menu2">contact</div></a>
 	
 </div>
   
@@ -212,6 +212,6 @@
   <br>
   <br>
 </div>
-<div class="footer"><a href="#top">&uarr;</a></div>
+<div class="footer"><a onclick="$('#top').animatescroll();">&uarr;</a></div>
 </body>
 </html>
