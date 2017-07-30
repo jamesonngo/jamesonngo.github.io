@@ -74,6 +74,7 @@ d {
 	min-width: 330px;
 	max-width: 960px;
 	margin:auto;
+	background-color: #00a875;
 }
 .about {
 	float: inherit;
@@ -179,8 +180,6 @@ a:hover {
 	height: 60px;
 	font-size: 20px;
 	color: white;
-	background-color: #00A875;
-	border: 1px solid #00a875;
 	font-family: FuturaBook;
 	text-align: center;
 	font-variant: small-caps;
@@ -188,7 +187,6 @@ a:hover {
 	border-bottom-right-radius: 5px;
 }
 .menu:hover {
-	border: 1px solid #000000;
 	color: #000000;
 }
 
@@ -268,6 +266,11 @@ h1 {
 	border: 1px solid #000000;
 	color: #000000;
 }
+
+.scrollToTop{
+		text-decoration: none;
+}
+
 .footer {
 	position: relative;
 	margin-left: auto;
