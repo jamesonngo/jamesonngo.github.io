@@ -3,21 +3,38 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="css/main.css">
 <head>
-
-	<title>Jameson Ngo</title>
-
+<title>Jameson Ngo</title>
+<script language="javascript">
+function scrollToTop(scrollDuration) {
+    var cosParameter = window.scrollY / 2,
+        scrollCount = 0,
+        oldTimestamp = performance.now();
+    function step (newTimestamp) {
+        scrollCount += Math.PI / (scrollDuration / (newTimestamp - oldTimestamp));
+        if (scrollCount >= Math.PI) window.scrollTo(0, 0);
+        if (window.scrollY === 0) return;
+        window.scrollTo(0, Math.round(cosParameter + cosParameter * Math.cos(scrollCount)));
+        oldTimestamp = newTimestamp;
+        window.requestAnimationFrame(step);
+    }
+    window.requestAnimationFrame(step);
+}
+	</script>
 </head>
 
 <body>
-<div class="bar" align="center">
-<a href="index.html"><div class="menu">Home</div></a>
-	<a href="about.html"><div class="menu">About</div></a>
+<div class="bar" align="center"> <a href="index.html">
+  <div class="menu">Home</div>
+  </a> <a href="about.html">
+  <div class="menu">About</div>
+  </a>
   <div class="menu">Resum&eacute;<br>
-	  </div>
-	<a href="portfolio.html"><div class="menu">Portfolio
-	  </div></a>
-	<a href="contact.html"><div class="menu">Contact
-	  </div></a></div>
+  </div>
+  <a href="portfolio.html">
+  <div class="menu">Portfolio </div>
+  </a> <a href="contact.html">
+  <div class="menu">Contact </div>
+  </a></div>
 <div class="header">
   <p id="header-title">Jameson Ngo</p>
   <br>
@@ -139,9 +156,11 @@
       Waterloo, ON.<br>
       <br>
       Candidate for Bachelor of Honours Mathematics, Co-op
-      <div class="bullet">
-      <br><li>Statistics Major</li>
-	  <li>English Language and Literature Minor</li></div></div>
+      <div class="bullet"> <br>
+        <li>Statistics Major</li>
+        <li>English Language and Literature Minor</li>
+      </div>
+    </div>
     <br>
     <h1>Interests</h1>
     <div class="p">Dogs, Reading, Horror Movies, Dungeons and Dragons</div>
@@ -180,34 +199,21 @@
       <li>Maintain consistent updates</li>
       <li>Design branding UI</li>
     </div>
-	</div></div>
-	<div class="activities" align="center"><br>
+  </div>
+</div>
+<div class="activities" align="center"><br>
   <h1>Contact</h1>
-	<div class="p"><a href="mailto:jamesonngo@gmail.com" target="_blank"><img src="logos/mail.png" width="25px" alt=""/> jamesonngo@gmail.com</a><br></div>
-   <h1>Resum&eacute;</h1>
-   <div class="p">Last Updated: August 2017</div><br>
-    <a href="files/Jameson Ngo Resume.pdf" target="_blank"><div class="button">Download PDF Resum&eacute;</div></a>
+  <div class="p"><a href="mailto:jamesonngo@gmail.com" target="_blank"><img src="logos/mail.png" width="25px" alt=""/> jamesonngo@gmail.com</a><br>
+  </div>
+  <h1>Resum&eacute;</h1>
+  <div class="p">Last Updated: August 2017</div>
   <br>
+  <a href="files/Jameson Ngo Resume.pdf" target="_blank">
+  <div class="button">Download PDF Resum&eacute;</div>
+  </a> <br>
   <br>
   <br>
 </div>
-
 <div class="footer"><a href="#" onclick="scrollToTop(1000);">&uarr;</a></div>
-<script language="javascript">
-function scrollToTop(scrollDuration) {
-    var cosParameter = window.scrollY / 2,
-        scrollCount = 0,
-        oldTimestamp = performance.now();
-    function step (newTimestamp) {
-        scrollCount += Math.PI / (scrollDuration / (newTimestamp - oldTimestamp));
-        if (scrollCount >= Math.PI) window.scrollTo(0, 0);
-        if (window.scrollY === 0) return;
-        window.scrollTo(0, Math.round(cosParameter + cosParameter * Math.cos(scrollCount)));
-        oldTimestamp = newTimestamp;
-        window.requestAnimationFrame(step);
-    }
-    window.requestAnimationFrame(step);
-}
-	</script>
 </body>
 </html>
