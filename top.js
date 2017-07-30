@@ -1,10 +1,4 @@
-$(document).ready(function(){
-	
-	//Click event to scroll to top
-	
-	$('a[href*=#]').click(function(){
-		$('html, body').animate({scrollTop : 0},800);
-		return false;
-	});
-	
+$("a[href='#top']").click(function() {
+  $("html, body").animate({ scrollTop: 0 }, "slow");
+  return false;
 });
