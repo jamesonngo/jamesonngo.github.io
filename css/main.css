@@ -192,9 +192,15 @@ a:hover {
 .activities {
 	width: 100%
 }
+h1 {
+	text-align: center;
+}
 }
 
 @media (max-width: 400px) {
+h1 {
+	text-align: center;
+}
 .header #header-title {
 	padding-top: 12%;
 	font-size: 2em;
