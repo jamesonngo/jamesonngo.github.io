@@ -176,7 +176,7 @@ a:hover {
 	display: inline-block;
 	line-height: 250%;
 	width: 19%;
-	height: 100px;
+	height: 60px;
 	font-size: 20px;
 	color: white;
 	background-color: #00A875;
@@ -221,9 +221,9 @@ h1 {
 	text-align: center;
 }
 .menu{
-		width: 18%;
+	width: 18%;
 	font-size: 14px;
-	height: 50px;
+	height: 40px;
 	}
 }
 
