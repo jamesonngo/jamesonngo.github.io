@@ -1,4 +1,10 @@
-$("a[href='#top']").click(function() {
-  $("html, body").animate({ scrollTop: 500 }, "slow");
-  return false;
-});
+function scrollToAnchor(aid){
+    var aTag = $("h2[id='"+ aid +"']");
+    $('html,body').animate({scrollTop: aTag.offset().top},'slow');
+}
+
+$("#summary").click(function() {
+   scrollToAnchor('summary');
+})
+
+;

@@ -68,7 +68,7 @@ d {
 	margin-left: auto;
 	margin-right: auto;
 }
-.bar {
+.navigation {
 	min-width: 330px;
 	max-width: 960px;
 	margin-top:-8px;
@@ -173,20 +173,40 @@ a:hover {
 }
 
 .menu {
-	margin-top: 10px;
 	display: inline-block;
 	line-height: 250%;
 	width: 19%;
-	height: 60px;
+	height: 100%;
 	font-size: 20px;
 	color: white;
 	font-family: FuturaBook;
 	text-align: center;
 	font-variant: small-caps;
-	border-bottom-left-radius: 5px;
-	border-bottom-right-radius: 5px;
 }
 .menu:hover {
+	color: #000000;
+}
+
+.bar{
+	height: 50px;
+	max-width: 960px;
+	min-width: 330px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #006E4C;
+}
+.menu2 {
+	display: inline-block;
+	line-height: 320%;
+	width: 15%;
+	height: 100%;
+	font-size: 15px;
+	color: white;
+	font-family: FuturaBook;
+	text-align: center;
+	font-variant: small-caps;
+}
+.menu2:hover {
 	color: #000000;
 }
 
@@ -227,6 +247,10 @@ h1 {
 	font-size: 14px;
 	height: 40px;
 	}
+	.menu2{
+	font-size: 12px;
+		line-height: 50px;
+	}
 }
 
 @media (max-width: 400px) {
@@ -259,6 +283,10 @@ h1 {
 	font-size: 12px;
 	height: 30px;
 	}
+		.menu2{
+	font-size: 10px;
+		line-height: 50px;
+	}
 }
 .button {
 	display: inline-block;
@@ -275,10 +303,6 @@ h1 {
 .button:hover {
 	border: 1px solid #000000;
 	color: #000000;
-}
-
-.scrollToTop{
-		text-decoration: none;
 }
 
 .footer {
