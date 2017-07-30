@@ -40,7 +40,7 @@ h2 {
 	margin-left: 10px;
 	margin-right: 5px;
 	font-family: FuturaBook;
-	font-size: 2em;
+	font-size: 1.7em;
 	font-variant: small-caps;
 	line-height: 1.2em;
 	color: #ffffff;
@@ -216,6 +216,20 @@ a:hover {
 		font-size: .8em;
 	}
 }
+
+.button {
+    display: inline-block;
+    height: 40px;
+	font-size: 1em;
+    padding: 10px 30px;
+    color:white;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 1px solid #00a875;
+    box-sizing: border-box;
+	font-family: FuturaBook;
+}
+
 .footer {
 	position: relative;
 	margin-left: auto;
