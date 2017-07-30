@@ -80,7 +80,6 @@ d {
 	margin-right: auto;
 	word-wrap: break-word;
 }
-
 .activities {
 	width: 80%;
 	min-width: 330px;
@@ -89,14 +88,12 @@ d {
 	margin-right: auto;
 	word-wrap: break-word;
 }
-
 IMG.joblogo {
 	z-index: 2;
 	width: 50px;
 	height: 50px;
 	float: left;
 }
-
 .p {
 	margin-left: 10px;
 	margin-right: 5px;
@@ -179,57 +176,59 @@ a:hover {
 .content .right {
 	min-width: 100%;
 }
-	.right .p {
-		text-align: center;
-		align-content: center;
-	}
+.right .p {
+	text-align: center;
+	align-content: center;
+}
 .header #header-title {
 	font-size: 3em;
 }
 .header #email {
 	font-size: 1.4em;
 }
-	.about {
-		width: 100%;
-	}
-	.activities{
-		width: 100%
-	}
+.about {
+	width: 100%;
+}
+.activities {
+	width: 100%
+}
 }
 
 @media (max-width: 400px) {
-	.header #header-title {
-	padding-top:12%;
+.header #header-title {
+	padding-top: 12%;
 	font-size: 2em;
 }
-	.about {
-		width: 100%;
-	}
+.about {
+	width: 100%;
+}
 .header #email {
 	font-size: 1em;
 }
-	.content{
-		font-size: .8em;
-	}
-	.activities{
-		width: 100%;
-		font-size: .8em;
-	}
+.content {
+	font-size: .8em;
 }
-
+.activities {
+	width: 100%;
+	font-size: .8em;
+}
+}
 .button {
-    display: inline-block;
-    height: 40px;
+	display: inline-block;
+	height: 40px;
 	font-size: 1em;
-    padding: 10px 30px;
-    color:white;
-    white-space: nowrap;
-    background-color: transparent;
-    border: 1px solid #00a875;
-    box-sizing: border-box;
+	padding: 10px 30px;
+	color: white;
+	white-space: nowrap;
+	background-color: transparent;
+	border: 1px solid #00a875;
+	box-sizing: border-box;
 	font-family: FuturaBook;
 }
-
+.button:hover {
+	border: 1px solid #000000;
+	color: #000000;
+}
 .footer {
 	position: relative;
 	margin-left: auto;
