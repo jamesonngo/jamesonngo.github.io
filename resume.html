@@ -191,26 +191,23 @@
   <br>
   <br>
 </div>
+
+<div class="footer"><a href="#" onclick="scrollToTop(1000);">&uarr;</a></div>
 <script>
-	$(document).ready(function(){
-	
-	//Check to see if the window is top if not then display button
-	$(window).scroll(function(){
-		if ($(this).scrollTop() > 100) {
-			$('.scrollToTop').fadeIn();
-		} else {
-			$('.scrollToTop').fadeOut();
-		}
-	});
-	
-	//Click event to scroll to top
-	$('.scrollToTop').click(function(){
-		$('html, body').animate({scrollTop : 0},800);
-		return false;
-	});
-	
-});
+function scrollToTop(scrollDuration) {
+    var cosParameter = window.scrollY / 2,
+        scrollCount = 0,
+        oldTimestamp = performance.now();
+    function step (newTimestamp) {
+        scrollCount += Math.PI / (scrollDuration / (newTimestamp - oldTimestamp));
+        if (scrollCount >= Math.PI) window.scrollTo(0, 0);
+        if (window.scrollY === 0) return;
+        window.scrollTo(0, Math.round(cosParameter + cosParameter * Math.cos(scrollCount)));
+        oldTimestamp = newTimestamp;
+        window.requestAnimationFrame(step);
+    }
+    window.requestAnimationFrame(step);
+}
 	</script>
-<div class="footer"><a href="#" class="scrollToTop">&uarr;</a></div>
 </body>
 </html>
