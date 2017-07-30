@@ -1,10 +1,4 @@
-function scrollToAnchor(aid){
-    var aTag = $("h2[id='"+ aid +"']");
-    $('html,body').animate({scrollTop: aTag.offset().top},'slow');
-}
-
-$("#summary").click(function() {
-   scrollToAnchor('summary');
-})
-
-;
+$('a[href*=\\#]').on('click', function(event){     
+    event.preventDefault();
+    $('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
+});
