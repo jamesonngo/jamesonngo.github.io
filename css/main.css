@@ -305,8 +305,7 @@ h1 {
 .footer {
 	z-index: 5;
 	width: 90%;
-	position: fixed;
-	bottom: -1px;
+	bottom: 0px;
 	margin-left: auto;
 	margin-right: auto;
 	padding: 0px;
@@ -314,19 +313,13 @@ h1 {
 	min-width: 330px;
 	max-width: 940px;
 	background-color: #6BBAA7;
-	clear: both;
 	font-family: FuturaBook;
 	font-size: 20px;
 	text-align: center;
 	color: #000000;
 	left:0;
 	right:0;
-	opacity: 0.9;
-	border-top-left-radius: 25px;
-	border-top-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
 
-}
-#footer p {
-	position: relative;
-	padding-top: 15px;
 }
