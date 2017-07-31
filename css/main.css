@@ -17,7 +17,7 @@ body {
 #email {
 	position: relative;
 	font-size: 2em;
-	top: -30px;
+	top: -40px;
 	font-family: FuturaBook;
 	color: #ffffff;
 }
@@ -223,7 +223,7 @@ a:hover {
 }
 .header #email {
 	font-size: 1.4em;
-	top: -10px;
+	top: -20px;
 }
 	.header {
 		margin-top: -15px;
@@ -267,7 +267,7 @@ h1 {
 	}
 .header #email {
 	font-size: 1em;
-	top: 0px;
+	top:-10px;
 }
 .content {
 	font-size: .8em;
