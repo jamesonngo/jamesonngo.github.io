@@ -265,6 +265,7 @@ h1 {
 	margin-top: -12px;
 	height: 140px;
 	background-size: 70px;
+	background-position: 50%;
 }
 .header #email {
 	font-size: 1em;
