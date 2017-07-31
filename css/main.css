@@ -9,22 +9,16 @@ body {
 
 #header-title {
 	position: relative;
-	padding-top: .5em;
-	margin-left: 1em;
 	font-size: 4em;
-	line-height: 1.2em;
 	font-family: FuturaBook;
 	font-variant: small-caps;
 	color: #ffffff;
 }
 #email {
 	position: relative;
-	margin-left: 2em;
-	margin-top: -2.5em;
-	padding-top: 5px;
 	font-size: 2em;
+	top: -30px;
 	font-family: FuturaBook;
-	line-height: 1.4em;
 	color: #ffffff;
 }
 h1 {
@@ -61,8 +55,8 @@ d {
 	background-color: #6bbaa7;
 	background-image: url("../files/logoooo.png");
 	background-repeat: no-repeat;
-	background-size: 20%, contain;
-	background-position: center;
+	background-size: 90px;
+	background-position: 50% 60%;
 	min-width: 330px;
 	max-width: 960px;
 	margin-top: -30px;
@@ -229,10 +223,12 @@ a:hover {
 }
 .header #email {
 	font-size: 1.4em;
+	top: -10px;
 }
 	.header {
 		margin-top: -15px;
 		height:170px;
+		background-size: 90px;
 	}
 .about {
 	width: 100%;
@@ -260,8 +256,6 @@ h1 {
 }
 .header #header-title {
 	font-size: 2em;
-				padding-top: 20px;
-
 }
 .about {
 	width: 100%;
@@ -269,9 +263,11 @@ h1 {
 	.header{
 		margin-top: -12px;
 		height: 130px;
+		background-size: 80px;
 	}
 .header #email {
 	font-size: 1em;
+	top: 0px;
 }
 .content {
 	font-size: .8em;
