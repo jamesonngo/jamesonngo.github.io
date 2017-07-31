@@ -16,7 +16,7 @@ body {
 #email {
 	position: relative;
 	font-size: 2em;
-	top: -50px;
+	top: -30px;
 	font-family: FuturaBook;
 	color: #ffffff;
 }
@@ -50,7 +50,7 @@ d {
 .header {
 	z-index: 1;
 	width: 100%;
-	height: 200px;
+	height: 225px;
 	background-color: #6bbaa7;
 	background-image: url("../files/logoooo.png");
 	background-repeat: no-repeat;
@@ -220,12 +220,12 @@ a:hover {
 }
 .header #email {
 	font-size: 1.4em;
-	top: -20px;
+	top: -15px;
 }
 .header {
 	margin-top: -15px;
-	height: 170px;
-	background-size: 90px;
+	height: 180px;
+	background-size: 80px;
 }
 .about {
 	width: 100%;
@@ -259,12 +259,12 @@ h1 {
 }
 .header {
 	margin-top: -12px;
-	height: 130px;
-	background-size: 80px;
+	height: 140px;
+	background-size: 70px;
 }
 .header #email {
 	font-size: 1em;
-	top: -10px;
+	top: -5px;
 }
 .content {
 	font-size: .8em;
