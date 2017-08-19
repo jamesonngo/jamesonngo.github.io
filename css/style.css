@@ -15,10 +15,12 @@ html {
 .wrapper {
 	height: 97vh;
 	width: 97vw;
+	min-height: 725px;
 }
 .header {
 	position: relative;
 	height: 97vh;
+	min-height: 725px;
 	width: 920px;
 	margin-left: auto;
 	margin-right: auto;
