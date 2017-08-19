@@ -296,6 +296,15 @@ ar:hover {
 	margin-right: auto;
 	overflow: hidden;
 }
+.navigationr {
+	width: 100%;
+	min-width: 330px;
+	max-width: 960px;
+	margin-top: -8px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #F29167;
+}
 .leftr {
 	float: left;
 	width: 56.5%;
@@ -337,6 +346,7 @@ ar:hover {
 	margin-right: auto;
 	margin-left: auto;
 	background-color: #6bbaa7;
+	margin-bottom: 20px;
 }
 .menu2r {
 	display: inline-block;
@@ -350,7 +360,8 @@ ar:hover {
 	font-variant: small-caps;
 }
 .menu2r:hover {
-	color: #000000;
+	color: #F39267;
+	cursor:pointer;
 }
 
 @media (max-width: 700px) {
@@ -410,19 +421,20 @@ h1r {
 }
 .buttonr {
 	display: inline-block;
-	height: 40px;
+	height: 50px;
 	font-size: 1em;
-	padding: 10px 30px;
+	padding: 5px 30px;
 	color: white;
 	white-space: nowrap;
 	background-color: transparent;
-	border: 1px solid #6bbaa7;
+	border: 5px solid #6bbaa7;
 	box-sizing: border-box;
 	font-family: FuturaBook;
+	border-radius: 25px;
 }
 .buttonr:hover {
-	border: 1px solid #000000;
-	color: #000000;
+	border: 5px solid #EF8E64;
+	color: #EF8E64;
 }
 .footerr {
 	z-index: 5;
