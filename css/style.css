@@ -38,10 +38,6 @@ html {
 	width: 60%;
 	top: calc(50% - 180px);
 	right: 10%;
-	
-	
-	border: dashed;
-	border-color: #ffffff;
 }
 .header-des{
 	position: absolute;
@@ -50,9 +46,6 @@ html {
 	width: 80%;
 	top: 50%;
 	left: 10%;
-	
-	border:dashed;
-	border-color: #ffffff;
 }
 .navigation {
 	position: absolute;
