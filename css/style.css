@@ -108,6 +108,7 @@ button {
 button:hover {
 	background-color: #F39267;
 	color: #202E2F;
+	cursor: pointer;
 }
 button2 {
 	display: inline-block;
@@ -128,5 +129,6 @@ button2 {
 button2:hover {
 	color: #6CBBA8;
 	border-color: #6CBBA8;
+	cursor: pointer;
 }
 /*Styles*/
