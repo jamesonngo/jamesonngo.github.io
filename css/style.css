@@ -1,0 +1,56 @@
+@font-face {
+	font-family: FuturaBook;
+	src: url("/../font/Futura-Book.otf") format("opentype");
+}
+body {
+	background-color: #202E2F;
+	font-family:FuturaBook;
+}
+html {
+	overflow-y: scroll;
+}
+/* DIV Classes */
+.wrapper {
+	height: 97vh;
+	width: 97vw;
+}
+.header {
+	position: relative;
+	height: 480px;
+	width: 920px;
+	top: calc(50% - 240px);
+	margin-left: auto;
+	margin-right: auto;
+	
+	background-image: url(../images/logo.png);
+	background-repeat: no-repeat;
+	background-size: 160px;
+	background-position: 10% 50%;
+	
+	border: dashed;
+	border-color: #000000;
+}
+.header-title {
+	position:relative;
+	height: 160px;
+	width: 50%;
+	top: calc(50% - 80px);
+	margin-left: auto;
+	margin-right: auto;
+	
+	
+	border: dashed;
+	border-color: #ffffff;
+}
+/* DIV Classes */
+
+/*Styles*/
+header {
+	font-size: 60px;
+	font-variant-caps: small-caps;
+	color:#F39267;
+}
+accent{
+	color:#6CBBA8;
+}
+/*Styles*/
