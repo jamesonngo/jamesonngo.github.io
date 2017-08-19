@@ -79,9 +79,10 @@ html {
 	.header {
 		background-position: 50% 15%;
 		background-size: 100px;
+		line-height: normal;
 	}	
 	.header-title header {
-		font-size: 2.5em;
+		font-size: 2em;
 	}
 	.header-title {
 		float:none;
@@ -97,7 +98,7 @@ html {
 	.header-des{
 		top: 320px;
 		font-size: .9em;
-		line-height: inherit;
+		line-height: normal;
 	}
 	.navigation button{
 		font-size: 70%;
