@@ -28,14 +28,14 @@ html {
 	background-image: url(../images/logo.png);
 	background-repeat: no-repeat;
 	background-size: 160px;
-	background-position: 10% calc(40% - 100px);
+	background-position: 10% calc(35% - 100px);
 }
 .header-title {
 	position: relative;
 	float: right;
 	height: 160px;
 	width: 60%;
-	top: calc(40% - 180px);
+	top: calc(35% - 180px);
 	right: 10%;
 }
 .header-des{
@@ -43,7 +43,7 @@ html {
 	float: left;
 	height: 260px;
 	width: 80%;
-	top: 45%;
+	top: 35%;
 	left: 10%;
 }
 .navigation {
