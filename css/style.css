@@ -120,6 +120,8 @@ html {
 	}
 	.header-des{
 		top: 310px;
+		line-height: 1.4em;
+		font-size: .8em;
 	
 	}
 }
