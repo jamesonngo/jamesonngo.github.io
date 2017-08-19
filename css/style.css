@@ -5,6 +5,7 @@
 body {
 	background-color: #202E2F;
 	font-family:FuturaBook;
+	font-size: 20px;
 }
 html {
 	overflow-y: scroll;
@@ -24,21 +25,32 @@ html {
 	background-image: url(../images/logo.png);
 	background-repeat: no-repeat;
 	background-size: 160px;
-	background-position: 10% 50%;
+	background-position: 10% calc(50% - 100px);
 	
 	border: dashed;
 	border-color: #000000;
 }
 .header-title {
-	position: absolute;
+	position: relative;
 	float: right;
 	height: 160px;
 	width: 60%;
-	top: calc(50% - 80px);
+	top: calc(50% - 180px);
 	right: 10%;
 	
 	
 	border: dashed;
+	border-color: #ffffff;
+}
+.header-des{
+	position: relative;
+	height: 160px;
+	width: 80%;
+	top: calc(50%);
+	margin-left: auto;
+	margin-right: auto;
+	
+	border:dashed;
 	border-color: #ffffff;
 }
 .navigation {
@@ -71,7 +83,7 @@ button {
 	height: 50px;
 	width: 120px;
 	padding: 10px 30px;
-	border-radius: 10px;
+	border-radius: 25px;
 	border: none;
 	background-color: transparent;
 	box-sizing: border-box;
