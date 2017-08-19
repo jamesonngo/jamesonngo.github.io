@@ -50,21 +50,28 @@
 
 <!-- Resume -->
 <div class="content" id="webresume" style="display:none">
-<div class="barr" align="center"> <a onclick="$('#summary').animatescroll();">
+<div class="barr" id="barr" align="center" style="display:none"> 
+<buttonrn onclick="resume(); webresume2(); $('#top').animatescroll()">home</buttonrn>
+		<buttonrn onclick="about(); webresume2(); $('#top').animatescroll()">about</buttonrn>
+		<buttonrn onclick="works(); webresume2(); $('#top').animatescroll()">portfolio</buttonrn>
+		<buttonrn onclick="contact(); webresume2(); $('#top').animatescroll()">contact</buttonrn>
+ 
+<div class="barrbot">
+ <a onclick="$('#summary').animatescroll({padding:120});">
   <div class="menu2r">summary</div>
-  </a> <a onclick="$('#exp').animatescroll();">
+  </a> <a onclick="$('#exp').animatescroll({padding:120});">
   <div class="menu2r">experience</div>
-  </a> <a onclick="$('#tech').animatescroll();">
+  </a> <a onclick="$('#tech').animatescroll({padding:120});">
   <div class="menu2r">technical</div>
-  </a> <a onclick="$('#edu').animatescroll();">
+  </a> <a onclick="$('#edu').animatescroll({padding:120});">
   <div class="menu2r">education</div>
-  </a> <a onclick="$('#activ').animatescroll();">
+  </a> <a onclick="$('#activ').animatescroll({padding:120});">
   <div class="menu2r">activities</div>
   </a> <a href="files/Jameson Ngo Resume.pdf" target="_blank">
   <div class="menu2r">pdf</div>
-  </a> </div>
+  </a> </div></div>
 
-	<div class="contentr">
+	<div class="contentr"><br><br><br><br><br>
   <div class="aboutr">
     <h1r id="summary">Skills Summary</h1r>
     <br><br>
@@ -237,6 +244,8 @@
 </div>
 
 <script src="showhide.js">
+</script>
+<script src="fixednav.js">
 </script>
 </body>
 </html>

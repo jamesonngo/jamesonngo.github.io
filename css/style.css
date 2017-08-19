@@ -340,6 +340,7 @@ ar:hover {
 	color: #000000;
 }
 .barr {
+	position: fixed;
 	height: 50px;
 	max-width: 960px;
 	min-width: 375px;
@@ -347,13 +348,38 @@ ar:hover {
 	margin-left: auto;
 	background-color: #6bbaa7;
 	margin-bottom: 20px;
-	border-radius: 25px;
+}
+.barrfixed {
+	position: fixed;
+	z-index: 999;
+	top: 0px;
+	height: 100px;
+	width: 100%;
+	max-width: 960px;
+	min-width: 375px;
+	background-color: #45746B;
+	margin-bottom: 20px;
+	border-bottom-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+	overflow: hidden;
+	background-image: url(../images/logo.png);
+	background-size: 45px;
+	background-repeat: no-repeat;
+	background-position: 10% 2px;
+	
+}
+.barrbot{
+	background-color:#6BBAA7;
 }
 .menu2r {
 	display: inline-block;
-	line-height: 320%;
 	width: 15%;
-	height: 100%;
+	line-height: 50px;
+	height: 50%;
 	font-size: 15px;
 	color: white;
 	font-family: FuturaBook;
@@ -396,6 +422,9 @@ h1r {
 	font-size: 12px;
 	line-height: 50px;
 }
+	.barr buttonrn{
+		font-size : 15px;
+	}
 }
 
 @media (max-width: 400px) {
@@ -437,6 +466,23 @@ h1r {
 .buttonr:hover {
 	border: 5px solid #EF8E64;
 	color: #EF8E64;
+}
+buttonrn {
+	display: inline-block;
+	height: 50px;
+	width: 15%;
+	padding: 10px 1%;
+	border: none;
+	background-color: transparent;
+	box-sizing: border-box;
+	font-family: FuturaBook;
+	color:#202E2F;
+	font-size: 20px;
+}
+buttonrn:hover {
+	background-color: #202E2F;
+	color: #6CBBA8;
+	cursor: pointer;
 }
 .footerr {
 	z-index: 5;
