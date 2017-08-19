@@ -124,7 +124,8 @@ button2:hover {
 
 /*Resume Styles*/
 .content{
-	position:relative;
+	position: relative;
+	font-size: 14px;
 }
 h1r {
 	margin-left: 10px;
@@ -190,12 +191,12 @@ IMG.joblogor {
 	margin-top: -10px;
 	font-family: FuturaBook;
 }
-.bulletr lir {
+.bulletr li {
 	list-style-type: none;
 	position: relative;
 	padding-left: 5px;
 }
-.bulletr lir:before {
+.bulletr li:before {
 	content: '•';
 	display: block;
 	width: 10px;
@@ -204,7 +205,7 @@ IMG.joblogor {
 	top: -2px;
 	left: -15px;
 }
-lir {
+li {
 	list-style-type: inherit;
 }
 ar {
