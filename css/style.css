@@ -16,7 +16,7 @@ html {
 	height: 95vh;
 	width: 95vw;
 	min-height: 725px;
-	min-width: 330px;
+	min-width: 375px;
 	max-width: 960px;
 	margin-left: auto;
 	margin-right: auto;
@@ -65,7 +65,7 @@ html {
 
 /*Media change*/
 
-@media (max-width: 850px) {
+@media (max-width: 950px) {
 	.header {
 		background-position: 10% 15%;
 		background-size: 120px;
@@ -75,7 +75,7 @@ html {
 	}
 }
 
-@media (max-width: 550px) {
+@media (max-width: 600px) {
 	.header {
 		background-position: 50% 15%;
 		background-size: 100px;
@@ -222,7 +222,7 @@ dr {
 .aboutr {
 	float: inherit;
 	width: 94%;
-	min-width: 330px;
+	min-width: 375px;
 	max-width: 960px;
 	margin-left: auto;
 	margin-right: auto;
@@ -230,7 +230,7 @@ dr {
 }
 .activitiesr {
 	width: 85%;
-	min-width: 330px;
+	min-width: 375px;
 	max-width: 960px;
 	margin-left: auto;
 	margin-right: auto;
@@ -287,7 +287,7 @@ ar:hover {
 	width: 100%;
 	position: relative;
 	padding-bottom: 10px;
-	min-width: 330px;
+	min-width: 375px;
 	max-width: 960px;
 	margin-left: auto;
 	margin-right: auto;
@@ -330,7 +330,7 @@ ar:hover {
 .barr {
 	height: 50px;
 	max-width: 960px;
-	min-width: 330px;
+	min-width: 375px;
 	margin-right: auto;
 	margin-left: auto;
 	background-color: #6bbaa7;
@@ -429,7 +429,7 @@ h1r {
 	margin-right: auto;
 	padding: 0px;
 	height: 30px;
-	min-width: 330px;
+	min-width: 375px;
 	max-width: 940px;
 	background-color: #6BBAA7;
 	font-family: FuturaBook;
