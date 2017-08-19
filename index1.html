@@ -4,6 +4,9 @@
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <head>
 <title>Jameson Ngo</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="animatescroll.js">
+</script>
 </head>
 
 <body>
@@ -13,17 +16,28 @@
 		<header><accent>J</accent>ameson <accent>N</accent>go</header>
 		University of Waterloo Statistics major, minoring in Literature
 	</div>
+	
+	<div class="header-des" id="resume" style="display:none">1</div>
+	
 	<div class="header-des" id="about"> 
 	I've had a life-long interest for design, from visual/digital art, to story telling. I want to combine this interest with my passion for data and mathematics to communicate information effectively and beautifully.<br><br>
 	In my free time, I get involved in the community, read about current events, and doodle as much as I can.
 	</div>
+	
+	<div class="header-des" id="works" style="display:none">3</div>
+	
+	<div class="header-des" id="contact" style="display:none">4</div>
+	
 	<div class="navigation">
-		<button>resume</button>
-		<button>about</button>
-		<button>portfolio</button>
-		<button>contact</button>
+		<button onclick="resume()">resume</button>
+		<button onclick="about()">about</button>
+		<button onclick="works()">portfolio</button>
+		<button onclick="contact()">contact</button>
 	</div>
 </div>
 </div>
+
+<script src="showhide.js">
+</script>
 </body>
 </html>
