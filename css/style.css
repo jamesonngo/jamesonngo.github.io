@@ -7,7 +7,7 @@ body {
 	font-family:FuturaBook;
 	font-size: 20px;
 	color: #ffffff;
-	line-height: 1.3em;
+	line-height: 25px;
 }
 html {
 	overflow-y: scroll;
@@ -80,7 +80,6 @@ html {
 	.header {
 		background-position: 50% 15%;
 		background-size: 100px;
-		line-height: normal;
 	}	
 	.header-title header {
 		font-size: 2em;
