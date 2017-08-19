@@ -190,12 +190,12 @@ IMG.joblogor {
 	margin-top: -10px;
 	font-family: FuturaBook;
 }
-.bulletr li {
+.bulletr lir {
 	list-style-type: none;
 	position: relative;
 	padding-left: 5px;
 }
-.bulletr li:before {
+.bulletr lir:before {
 	content: '•';
 	display: block;
 	width: 10px;
