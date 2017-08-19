@@ -39,7 +39,7 @@ html {
 .header-des{
 	position: absolute;
 	float: left;
-	height: 160px;
+	height: 260px;
 	width: 80%;
 	top: 50%;
 	left: 10%;
@@ -57,11 +57,28 @@ html {
 }
 /* DIV Classes */
 
+/*Resume Styles*/
+.content{
+	position: relative;
+	width: 960px;
+	height: 4000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+/*Resume Styles*/
+
+
 /*Styles*/
 header {
 	font-size: 80px;
 	font-variant-caps: small-caps;
 	color:#F39267;
+}
+h1 {
+	font-size: 30px;
+	font-variant-caps: small-caps;
+	color:#6CBBA8;
+	text-align: center;
 }
 accent{
 	color:#6CBBA8;
@@ -85,5 +102,25 @@ button {
 button:hover {
 	background-color: #F39267;
 	color: #202E2F;
+}
+button2 {
+	display: inline-block;
+	height: 50px;
+	width: 200px;
+	padding: 10px 30px;
+	border-radius: 25px;
+	border: solid;
+	border-color: #F39267;
+	border-width: 5px;
+	box-sizing: border-box;
+	font-family: FuturaBook;
+	color:#F39267;
+	font-size: 20px;	
+	font-variant-caps: small-caps;
+
+}
+button2:hover {
+	color: #6CBBA8;
+	border-color: #6CBBA8;
 }
 /*Styles*/

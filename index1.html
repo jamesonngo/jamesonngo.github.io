@@ -9,7 +9,7 @@
 </script>
 </head>
 
-<body>
+<body id="top">
 <div class="wrapper">
 <div class="header">
 	<div class= "header-title">
@@ -17,7 +17,12 @@
 		University of Waterloo Statistics major, minoring in Literature
 	</div>
 	
-	<div class="header-des" id="resume" style="display:none">1</div>
+	<div class="header-des" id="resume" style="display:none" align="center">
+	<h1>Resum&eacute;</h1>
+	Last Updated: August 2017<br><br>
+		<a href="files/Jameson Ngo Resume.pdf" target="_blank"><button2>PDF Resum&eacute;</button2></a><br><br>
+		<a onclick="webresume(); $('#webresume').animatescroll()"><button2>Web Resum&eacute;</button2></a>
+	</div>
 	
 	<div class="header-des" id="about"> 
 	I've had a life-long interest for design, from visual/digital art, to story telling. I want to combine this interest with my passion for data and mathematics to communicate information effectively and beautifully.<br><br>
@@ -29,13 +34,15 @@
 	<div class="header-des" id="contact" style="display:none">4</div>
 	
 	<div class="navigation">
-		<button onclick="resume()">resume</button>
-		<button onclick="about()">about</button>
-		<button onclick="works()">portfolio</button>
-		<button onclick="contact()">contact</button>
+		<button onclick="resume(); webresume2(); $('#top').animatescroll()">resum&eacute;</button>
+		<button onclick="about(); webresume2(); $('#top').animatescroll()">about</button>
+		<button onclick="works(); webresume2(); $('#top').animatescroll()">portfolio</button>
+		<button onclick="contact(); webresume2(); $('#top').animatescroll()">contact</button>
 	</div>
 </div>
 </div>
+
+<div class="content" id="webresume" style="display:none">d</div>
 
 <script src="showhide.js">
 </script>

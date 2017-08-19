@@ -89,3 +89,25 @@ function contact() {
 		$("#contact").delay(500).fadeIn("slow");
     }
 };
+
+function webresume() {
+    var webresume = document.getElementById('webresume');
+	
+    if (webresume.style.display === 'none') {
+        $("#webresume").fadeIn("slow");
+	}
+	else {
+		$("#webresume").fadeOut("slow");
+    }
+};
+
+function webresume2() {
+    var webresume = document.getElementById('webresume');
+	
+    if (webresume.style.display !== 'none') {
+        $("#webresume").fadeOut("slow");
+	}
+	else {
+		$("#webresume").fadeOut("slow");
+    }
+};
