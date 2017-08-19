@@ -95,9 +95,11 @@ function webresume() {
 	
     if (webresume.style.display === 'none') {
         $("#webresume").fadeIn("slow");
+		$('#webresume').animatescroll();
 	}
 	else {
 		$("#webresume").fadeOut("slow");
+		$('#top').animatescroll();
     }
 };
 

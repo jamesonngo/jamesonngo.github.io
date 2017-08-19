@@ -59,17 +59,6 @@ html {
 }
 /* DIV Classes */
 
-/*Resume Styles*/
-.content{
-	position: relative;
-	width: 960px;
-	height: 4000px;
-	margin-left: auto;
-	margin-right: auto;
-}
-/*Resume Styles*/
-
-
 /*Styles*/
 header {
 	font-size: 80px;
@@ -132,3 +121,259 @@ button2:hover {
 	cursor: pointer;
 }
 /*Styles*/
+
+/*Resume Styles*/
+.content{
+	position:relative;
+}
+h1r {
+	margin-left: 10px;
+	margin-bottom: 15px;
+	font-family: FuturaBook;
+	font-weight: 500;
+	font-variant: small-caps;
+	font-size: 2em;
+	color: #6bbaa7;
+}
+h2r {
+	margin-left: 10px;
+	margin-right: 5px;
+	font-family: FuturaBook;
+	font-size: 1.7em;
+	font-variant: small-caps;
+	line-height: 1.2em;
+	color: #ffffff;
+}
+dr {
+	float: right;
+	font-family: FuturaBook;
+	font-size: 1.1em;
+	line-height: 1em;
+	padding-right: 5px;
+	color: #6bbaa7;
+	font-variant: small-caps;
+}
+.aboutr {
+	float: inherit;
+	width: 94%;
+	min-width: 330px;
+	max-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	word-wrap: break-word;
+}
+.activitiesr {
+	width: 85%;
+	min-width: 330px;
+	max-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	word-wrap: break-word;
+}
+IMG.joblogor {
+	z-index: 2;
+	width: 50px;
+	height: 50px;
+	float: left;
+}
+.pr {
+	margin-left: 10px;
+	margin-right: 5px;
+	font-family: FuturaBook;
+	font-size: 1.5em;
+	line-height: 1.4em;
+	color: #ffffff;
+}
+.bulletr {
+	margin-left: 50px;
+	margin-right: 5px;
+	margin-top: -10px;
+	font-family: FuturaBook;
+}
+.bulletr li {
+	list-style-type: none;
+	position: relative;
+	padding-left: 5px;
+}
+.bulletr li:before {
+	content: '•';
+	display: block;
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	top: -2px;
+	left: -15px;
+}
+lir {
+	list-style-type: inherit;
+}
+ar {
+	font-family: FuturaBook;
+	color: #ffffff;
+	text-decoration: none;
+}
+ar:hover {
+	font-family: FuturaBook;
+	color: #000000;
+}
+.contentr {
+	z-index: 1;
+	width: 100%;
+	position: relative;
+	padding-bottom: 10px;
+	min-width: 330px;
+	max-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+}
+.leftr {
+	float: left;
+	width: 56.5%;
+	max-width: 677px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	padding-left: 3%;
+	border-right-style: solid;
+	border-right-width: 2px;
+	border-right-color: #6bbaa7;
+}
+.rightr {
+	float: left;
+	width: 40%;
+	max-width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: FuturaBook;
+}
+.menur {
+	display: inline-block;
+	line-height: 250%;
+	width: 19%;
+	height: 100%;
+	font-size: 20px;
+	color: white;
+	font-family: FuturaBook;
+	text-align: center;
+	font-variant: small-caps;
+}
+.menur:hover {
+	color: #000000;
+}
+.barr {
+	height: 50px;
+	max-width: 960px;
+	min-width: 330px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #6bbaa7;
+}
+.menu2r {
+	display: inline-block;
+	line-height: 320%;
+	width: 15%;
+	height: 100%;
+	font-size: 15px;
+	color: white;
+	font-family: FuturaBook;
+	text-align: center;
+	font-variant: small-caps;
+}
+.menu2r:hover {
+	color: #000000;
+}
+
+@media (max-width: 700px) {
+.contentr .leftr {
+	width: 90% !important;
+	border-right: 0;
+}
+.contentr .rightr {
+	min-width: 100%;
+}
+.rightr .pr {
+	text-align: center;
+	align-content: center;
+}
+.aboutr {
+	width: 95%;
+}
+.activitiesr {
+	width: 95%
+}
+h1r {
+	text-align: center;
+}
+.menur {
+	width: 18%;
+	font-size: 14px;
+	height: 40px;
+}
+.menu2r {
+	font-size: 12px;
+	line-height: 50px;
+}
+}
+
+@media (max-width: 400px) {
+h1r {
+	text-align: center;
+}
+.aboutr {
+	width: 90%;
+}
+.contentr {
+	font-size: .8em;
+}
+.activitiesr {
+	width: 95%;
+	font-size: .8em;
+}
+.menur {
+	font-size: 12px;
+	height: 30px;
+}
+.menu2r {
+	font-size: 10px;
+	line-height: 50px;
+}
+}
+.buttonr {
+	display: inline-block;
+	height: 40px;
+	font-size: 1em;
+	padding: 10px 30px;
+	color: white;
+	white-space: nowrap;
+	background-color: transparent;
+	border: 1px solid #6bbaa7;
+	box-sizing: border-box;
+	font-family: FuturaBook;
+}
+.buttonr:hover {
+	border: 1px solid #000000;
+	color: #000000;
+}
+.footerr {
+	z-index: 5;
+	width: 100%;
+	bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px;
+	height: 30px;
+	min-width: 330px;
+	max-width: 940px;
+	background-color: #6BBAA7;
+	font-family: FuturaBook;
+	font-size: 20px;
+	text-align: center;
+	color: #000000;
+	left: 0;
+	right: 0;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
+
+/*Resume Styles*/
