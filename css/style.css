@@ -16,9 +16,8 @@ html {
 }
 .header {
 	position: relative;
-	height: 480px;
+	height: 97vh;
 	width: 920px;
-	top: calc(50% - 240px);
 	margin-left: auto;
 	margin-right: auto;
 	
@@ -31,26 +30,56 @@ html {
 	border-color: #000000;
 }
 .header-title {
-	position:relative;
+	position: absolute;
+	float: right;
 	height: 160px;
-	width: 50%;
+	width: 60%;
 	top: calc(50% - 80px);
-	margin-left: auto;
-	margin-right: auto;
+	right: 10%;
 	
 	
 	border: dashed;
 	border-color: #ffffff;
 }
+.navigation {
+	position: absolute;
+	height: 10px;
+	width: 100%;
+	bottom: 7vh;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: space-around;
+}
 /* DIV Classes */
 
 /*Styles*/
 header {
-	font-size: 60px;
+	font-size: 80px;
 	font-variant-caps: small-caps;
 	color:#F39267;
 }
 accent{
 	color:#6CBBA8;
+}
+a {
+	text-decoration: none;
+}
+button {
+	display: inline-block;
+	height: 50px;
+	width: 120px;
+	padding: 10px 30px;
+	border-radius: 10px;
+	border: none;
+	background-color: transparent;
+	box-sizing: border-box;
+	color:#F39267;
+	font-size: 20px;
+}
+button:hover {
+	background-color: #F39267;
+	color: #202E2F;
 }
 /*Styles*/
