@@ -75,6 +75,7 @@ button {
 	border: none;
 	background-color: transparent;
 	box-sizing: border-box;
+	font-family: FuturaBook;
 	color:#F39267;
 	font-size: 20px;
 }
