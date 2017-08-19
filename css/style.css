@@ -7,6 +7,7 @@ body {
 	font-family:FuturaBook;
 	font-size: 20px;
 	color: #ffffff;
+	line-height: 1.2em;
 }
 html {
 	overflow-y: scroll;
@@ -96,7 +97,7 @@ html {
 
 	}
 	.header-des{
-		top: 320px;
+		top: 300px;
 		font-size: .9em;
 		line-height: normal;
 	}
@@ -119,7 +120,7 @@ html {
 		height: 50px;
 	}
 	.header-des{
-		top: 350px;
+		top: 310px;
 	
 	}
 }
@@ -130,6 +131,7 @@ html {
 header {
 	font-size: 80px;
 	font-variant-caps: small-caps;
+	line-height: 1.5em;
 	color:#F39267;
 }
 h1 {
