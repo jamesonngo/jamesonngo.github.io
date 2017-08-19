@@ -27,9 +27,6 @@ html {
 	background-repeat: no-repeat;
 	background-size: 160px;
 	background-position: 10% calc(50% - 100px);
-	
-	border: dashed;
-	border-color: #000000;
 }
 .header-title {
 	position: relative;
