@@ -84,7 +84,11 @@ accent{
 	color:#6CBBA8;
 }
 a {
+	color: inherit;
 	text-decoration: none;
+}
+a:hover{
+	color:#F39267;
 }
 button {
 	display: inline-block;
