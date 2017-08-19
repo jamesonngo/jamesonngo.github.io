@@ -343,7 +343,6 @@ ar:hover {
 	position: fixed;
 	height: 50px;
 	max-width: 960px;
-	min-width: 375px;
 	margin-right: auto;
 	margin-left: auto;
 	background-color: #6bbaa7;
@@ -356,7 +355,7 @@ ar:hover {
 	height: 100px;
 	width: 100%;
 	max-width: 960px;
-	min-width: 375px;
+	min-width: 390px;
 	background-color: #45746B;
 	margin-bottom: 20px;
 	border-bottom-left-radius: 50px;
