@@ -17,7 +17,7 @@ html {
 	height: 95vh;
 	width: 95vw;
 	min-height: 725px;
-	max-height: 1440px;
+	max-height: 1020px;
 	min-width: 375px;
 	max-width: 960px;
 	margin-left: auto;
@@ -27,6 +27,7 @@ html {
 	position: relative;
 	height: 97vh;
 	min-height: 725px;
+	max-height: 1020px;
 	width: 95%;
 	margin-left: auto;
 	margin-right: auto;
@@ -79,7 +80,7 @@ html {
 
 @media (max-width: 600px) {
 	.header {
-		background-position: 50% 10%;
+		background-position: 50% 30px;
 		background-size: 100px;
 	}	
 	.header-title header {
